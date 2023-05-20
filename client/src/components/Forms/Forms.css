@@ -1,0 +1,11 @@
+.form-container-2 {
+  display: flex;
+  /* max-width: 80%; */
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.form-container-2 button {
+  background-color: rgb(30, 146, 192);
+  color: white;
+}
