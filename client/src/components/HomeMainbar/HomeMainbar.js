@@ -97,7 +97,14 @@ const HomeMainbar = () => {
       </div>
       <div>
         {questionsList.data === null ? (
-          <h1>Loading...</h1>
+          <h1>
+            Please Wait...
+            <p style={{ fontWeight: "lighter", fontSize: "20px" }}>
+              while fetching the data
+              <br /> It may takes sometime
+            </p>
+            Loading...
+          </h1>
         ) : (
           <>
             <p>{questionsList.data.length} questions</p>

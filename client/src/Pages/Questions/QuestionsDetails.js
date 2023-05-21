@@ -134,7 +134,7 @@ const QuestionsDetails = () => {
       {questionsList.data === null ? (
         <h1>
           Please Wait...
-          <p>
+          <p style={{ fontWeight: "lighter", fontSize: "20px" }}>
             while fetching the data
             <br /> It may takes sometime
           </p>
